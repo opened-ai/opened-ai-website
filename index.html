@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>OpenEd.ai</title>
+    <title>Hackathon | OpenEd.ai</title>
     <!-- Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
@@ -37,6 +37,23 @@
     	background-position: center center;
     	z-index: 1;
     }
+    .moveDown {
+      bottom: 2rem;
+    }
+
+    .moveDown:focus, .moveDown:active {
+      outline: none;
+    }
+
+    .moveUp {
+      bottom: 4rem;
+      top: inherit;
+    }
+
+    .moveUp:focus, .moveUp:active {
+      outline: none;
+    }
+
     </style>
     <!--[if IE]><link rel="shortcut icon" href="images/favicon.ico"><![endif]-->
 </head>
@@ -49,6 +66,7 @@
     <div id="fullpage">
         <!-- Section -->
         <div class="section">
+          <button class="moveDown"><span class="alt-font-primary arrow-title">Scroll for info</span></button>
             <!-- Header -->
             <div class="header">
                 <nav class="navbar yamm navbar-light">
@@ -62,16 +80,16 @@
                     <div class="collapse navbar-toggleable-sm navbar-static-top" id="mainNav">
                         <ul class="nav navbar-nav pull-right">
                           <li class="nav-item">
-                            <a href="#" class="nav-link">Hackathon</a>
+                            <a href="./index.html" class="nav-link">Hackathon</a>
                           </li>
                           <li class="nav-item">
-                            <a href="#" class="nav-link">Datasets</a>
+                            <a href="./datasets.html" class="nav-link">Datasets</a>
                           </li>
                           <li class="nav-item">
-                            <a href="#" class="nav-link">Tutorials</a>
+                            <a href="./tutorials.html" class="nav-link">Tutorials</a>
                           </li>
                           <li class="nav-item">
-                            <a href="#" class="nav-link">Code</a>
+                            <a href="./code.html" class="nav-link">Code</a>
                           </li>
                         </ul>
                     </div>
@@ -159,35 +177,24 @@
                         <p class="lead text-xs-center">We are grateful for the support of the following organizations, without which this hackathon would not be possible.</p>
                         <div class="row text-center">
                             <div class="col-sm-4 grid-brands" style="border-width: 0 1px 1px 0">
-                                <img alt="" title="" src="images/brands/adobe.png" class="img-responsive center-block">
+                                <img alt="" title="" src="images/brands/sequoia.png" class="img-responsive center-block">
                             </div>
                             <div class="col-sm-4 grid-brands" style="border-width: 0 1px 1px 0">
-                                <img alt="" title="" src="images/brands/cloudflare.png" class="img-responsive center-block">
+                                <img alt="" title="" src="images/brands/accel.png" class="img-responsive center-block">
                             </div>
                             <div class="col-sm-4 grid-brands" style="border-width: 0 0 1px 0">
-                                <img alt="" title="" src="images/brands/codepen.png" class="img-responsive center-block">
-                            </div>
-                        </div>
-                        <div class="row text-center">
-                            <div class="col-sm-4 grid-brands" style="border-width: 0 1px 1px 0">
-                                <img alt="" title="" src="images/brands/wordpress.png" class="img-responsive center-block">
-                            </div>
-                            <div class="col-sm-4 grid-brands" style="border-width: 0 1px 1px 0">
-                                <img alt="" title="" src="images/brands/sizzle.png" class="img-responsive center-block">
-                            </div>
-                            <div class="col-sm-4 grid-brands" style="border-width: 0 0 1px 0">
-                                <img alt="" title="" src="images/brands/html.png" class="img-responsive center-block">
+                                <img alt="" title="" src="images/brands/facebook.png" class="img-responsive center-block">
                             </div>
                         </div>
                         <div class="row text-center">
                             <div class="col-sm-4 grid-brands" style="border-width: 0 1px 0 0">
-                                <img alt="" title="" src="images/brands/envato.png" class="img-responsive center-block">
+                                <img alt="" title="" src="images/brands/google.png" class="img-responsive center-block">
                             </div>
                             <div class="col-sm-4 grid-brands" style="border-width: 0 1px 0 0">
-                                <img alt="" title="" src="images/brands/github.png" class="img-responsive center-block">
+                                <img alt="" title="" src="images/brands/microsoft.png" class="img-responsive center-block">
                             </div>
                             <div class="col-sm-4 grid-brands" style="border-width: 0 0 0 0">
-                                <img alt="" title="" src="images/brands/jquery.png" class="img-responsive center-block">
+                                <img alt="" title="" src="images/brands/amazon.png" class="img-responsive center-block">
                             </div>
                         </div>
                     </div>
@@ -319,6 +326,7 @@
 
         <!-- Section -->
         <div class="section">
+          <button class="moveUp"><span class="alt-font-primary arrow-title">Back to top</span></button>
             <div class="container-wrap wow fadeIn" data-wow-duration="1s">
                 <div class="container-wrap-background vertical-center" style="position: relative">
                     <div class="wow fadeIn container" data-wow-delay="1.0s">

@@ -23,7 +23,9 @@ if (matchMedia('only screen and (min-width: 769px)').matches) {
     });
 
     $(document).on('click', '.moveUp', function() {
-        $.fn.fullpage.moveSectionUp();
+        //$.fn.fullpage.moveSectionUp();
+        //move all the way up
+        $.fn.fullpage.moveTo(1);
     });
     $(document).on('click', '.moveDown', function() {
         $.fn.fullpage.moveSectionDown();
@@ -48,7 +50,8 @@ if (matchMedia('only screen and (max-width: 768px)').matches) {
     });
 
     $(document).on('click', '.moveUp', function() {
-        $.fn.fullpage.moveSectionUp();
+        //$.fn.fullpage.moveSectionUp();
+        $.fn.fullpage.moveTo(1); // scroll all the way up
     });
     $(document).on('click', '.moveDown', function() {
         $.fn.fullpage.moveSectionDown();
