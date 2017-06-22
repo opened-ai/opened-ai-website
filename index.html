@@ -27,6 +27,17 @@
     <link rel="shortcut icon" href="images/favicon.png" />
 
     <style>
+
+    #main-header-text {
+      font-size: 70px;
+    }
+
+    @media only screen and (max-width: 900px) {
+      #main-header-text {
+        font-size: 30px;
+      }
+    }
+
     .large-header {
     	position: absolute;
     	width: 100%;
@@ -97,11 +108,11 @@
                 </nav>
             </div>
             <!-- End Header -->
-            <div id="main-slider-3_wrapper" class="fullscreen-container" style="padding:0px;">
-              <h3 class="text-white alt-font text-shadow  tp-resizeme" style="text-align:center; width: 100%; font-size: 14px; font-weight: 400; margin-bottom: 20px; line-height: 20px;
+            <div id="main-slider-3_wrapper" class="fullscreen-container" style="padding:0px; overflow: hidden;">
+              <h3 class="text-white alt-font text-shadow  tp-resizeme" style="text-align:center; font-size: 14px; font-weight: 400; margin-bottom: 20px; line-height: 20px;
     letter-spacing: 5px;">THE OPEN-SOURCE EDUCATION AI INITIATIVE PRESENTS</h3>
               <!-- LAYER NR. 2 -->
-              <h1 class="text-white strong alt-font text-shadow tp-resizeme" style="white-space: nowrap;text-align:center; width: 100%; font-size: 70px;">AI for Education Hackathon<Br/>July 21 - 28
+              <h1 id="main-header-text" class="text-white strong alt-font text-shadow tp-resizeme" style="white-space: nowrap;text-align:center;">AI for Education Hackathon<Br/>July 21 - 28
               </h1>
               <!-- LAYER NR. 2 -->
               <h3 class="text-white alt-font text-shadow  tp-resizeme" style="white-space: nowrap;text-align:center; width: 100%; margin-top: 20px; font-size: 20px;">Participate in-person (Delhi) or remotely
